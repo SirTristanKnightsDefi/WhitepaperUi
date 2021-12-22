@@ -2723,13 +2723,13 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$T, null))));
     }
     return (React.createElement(Container, null,
-        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0xE6C476b2865f246bf0e7011e218E8A50AF4cd63a", target: "_blank" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY", alt: "WP Logo", style: {
+        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/", target: "_blank" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmcLiFDQbAA1g8NbP7o9RmcWTohPdAdKPivHJBz6y3Y7UT", alt: "WP Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY", alt: "WP Logo", style: {
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmcLiFDQbAA1g8NbP7o9RmcWTohPdAdKPivHJBz6y3Y7UT", alt: "WP Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

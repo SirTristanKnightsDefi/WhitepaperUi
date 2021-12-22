@@ -77,9 +77,9 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>        
         {cakePriceUsd ? (
-          <PriceLink href="https://pancakeswap.info/token/0xE6C476b2865f246bf0e7011e218E8A50AF4cd63a" target="_blank">
+          <PriceLink href="https://pancakeswap.info/token/" target="_blank">
             <img
-              src="https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY"
+              src="https://gateway.pinata.cloud/ipfs/QmcLiFDQbAA1g8NbP7o9RmcWTohPdAdKPivHJBz6y3Y7UT"
               alt="WP Logo"
               style={{
                 width: "24px",
@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24}>
           <img
-              src="https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY"
+              src="https://gateway.pinata.cloud/ipfs/QmcLiFDQbAA1g8NbP7o9RmcWTohPdAdKPivHJBz6y3Y7UT"
               alt="WP Logo"
               style={{
                 width: "24px",
